@@ -1,0 +1,68 @@
+@charset "UTF-8"
+* { margin: 0; padding: 0; }
+html, body { }
+body { overflow-y: scroll; overflow: -moz-scrollbars-vertical; font-family: Helvetica, Arial, sans-serif; overflow-y: scroll; overflow: -moz-scrollbars-vertical; }
+body { margin: 0; background-color: #F8F8FB; }
+
+.wrapper { width: 1200px; max-width: 100%; margin: 16px auto 16px; position: relative; }
+.wrapper .media h1 { color: #548896; font-size: 36px; }
+.view { display: inline; }
+
+header { text-align: center; background-color: #28282B; position: relative; height: 48px; position: fixed; top: 0; left: 0; right: 0; z-index: 100; }
+section.header { position: fixed; padding: 4px 12px; top: 48px; bottom: 48px; right: 0; width: 242px; background-color: #FFF; box-shadow: 0px 0px 8px -4px #000; z-index: 100; }
+section.videolist { padding: 80px 320px 80px 0; }
+
+.videos { display: inline-block; vertical-align: top; width: 100%; margin-bottom: 24px; }
+.btn { border-radius: 2px; border: 2px #28282B solid; height: 38px; line-height: 38px; margin: 0 2px 2px 0; font-size: 19px; background-color: #FFF; }
+footer { text-align: center; background-color: #28282B; position: fixed; bottom: 0; left: 0; right: 0; z-index: 100; }
+footer p { font-size: 15px; color: #F8F8FB; }
+footer a { text-decoration: none; color: #F8F8FB; }
+
+.info { width: 1080px; position: relative; line-height: 48px; text-align: left; font-size: 17px; display: inline-block; color: #F8F8FB; }
+
+/* Search options */
+.buttons { display: inline-block; margin-bottom: 32px; }
+.buttons div { padding: 0 16px; width: 80px; display: inline-block; cursor: pointer; transition: .2s; vertical-align: top; }
+.buttons div:hover { background-color: #548896; color: #D7F0F7; border-color: #548896; }
+.options { display: inline-block; vertical-align: top; width: 100%; }
+select, input { font-size: 19px; border: 2px solid #28282B; margin: 4px 0; border-radius: 2px; color: #28282B; cursor: pointer; display: block; }
+input { height: 34px; padding: 0; width: 228px; padding: 2px 4px; }
+select { height: 42px; padding: 0; width: 240px; }
+
+/* Video selection */
+.menu { display: inline-block; width: 100%; margin-bottom: 32px; }
+.menu div { display: block; text-align: left; padding: 2px 0px; color: #28282B; margin: 2px 0 0 0; font-size: 19px; cursor: pointer; }
+.menu div:before { display: inline-block; height: 28px; width: 28px; content:''; margin-right: 12px; vertical-align: top; background-size: 28px 28px; }
+/*.menu div.active:before { background-image: url('cm1.png');}*/
+/*.menu div:before { background-image: url('cm2.png'); }*/
+.menu div.active:before { background-image: url('cm.png');}
+.menu div:before { background-image: none;}
+
+
+.menu .lesson:before { background-color: #71C2FF; }
+.menu .move:before { background-color: #00CC11; }
+.menu .aerials:before { background-color: #FF782B; }
+.menu .performance:before { background-color: #AE70FF; }
+.menu .google:before { background-color: #FFD314; }
+
+/* Playback rate */
+.playbackrate { font-size: 0; float: right; }
+.playbackrate .btn { width: 38px; display: inline-block; text-align: center; color: #28282B; }
+.playbackrate p { font-size: 19px; color: #28282B; display: inline-block; margin: 0 12px 0 0; padding: 0; }
+.playbackrate span { font-size: 23px; color: #28282B; display: inline-block; width: 72px; }
+.playbackrate .faster, .playbackrate .slower { background-color: #FBFBFB; font-size: 24px; cursor: pointer; margin-top: 6px; }
+
+.overlay { display: none; cursor: pointer; z-index: 1000; }
+.overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.8); }
+.overlay video, .overlay iframe { position: absolute; top: 50%; margin-top: -360px; left: 50%; margin-left: -640px; border: 8px solid #F8F8FB; background-color: #F8F8FB; }
+
+/* Unselectable text */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

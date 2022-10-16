@@ -1,0 +1,33 @@
+.item { display: none; cursor: pointer; width: 388px; background-color: #FFF; position: relative; margin: 6px;
+	box-shadow: 1px 2px 3px -2px #444; transition: .2s; max-height: 82px; overflow: hidden; }
+
+.item .meta { padding: 8px 0 8px 50px; display: inline-block; }
+
+.item.lesson .id, .item.lesson:hover { background-color: #71C2FF; }  /* blue */
+.item.move .id, .item.move:hover { background-color: #00CC11; }  /* green */
+.item.aerials .id, .item.aerials:hover { background-color: #FF782B; }  /* orange */
+.item.performance .id, .item.performance:hover { background-color: #AE70FF; } /* purple */
+.item.google .id, .item.google:hover { background-color: #FFD314; } /* yellow */
+
+.item .id { position: absolute; top: 0; bottom: 0; left: 0; width: 42px; font-size: 21px; color: #444;
+	line-height: 48px; display: flex; align-items: center; justify-content: center; }
+
+.item .icon { font-size: 19px; color: #444; display: inline-block; line-height: 24px; margin: 0 12px 0 0; vertical-align: top; text-align: left; }
+.item .icon:before { display: inline-block; height: 24px; width: 24px; content:''; margin-right: 12px; vertical-align: top; background-size: 24px 24px; }
+.item .teachers:before { background-image: url('dancers.png'); }
+.item .origin:before { background-image: url('event.png'); }
+
+.item .origin, .item .teachers { font-size: 17px; }
+.item span { color: #548896; font-size: 17px; }
+.item .desc { display: none; }
+
+.item.fadeIn {
+   opacity: 1;
+   transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
+   }
+
+.item.fadeOut {
+    opacity:0;
+}

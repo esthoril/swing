@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lindy videos</title>
+	<meta name="viewport" content="width=device-width; initial-scale=2.0; maximum-scale=1.0; user-scalable=1;" />
+	<link rel="shortcut icon" href="css/dancers_blue.ico">
+	<link href="css/stylesR.css" rel="stylesheet" type="text/css">
+	<link href="css/items.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<header>
+		<div class="info"><i>video description</i></div>
+	</header>
+
+	<section class="header">
+		<div class='wrapper'>
+			<div class='videos'>
+				<div class='buttons'>
+					<div class='btn search noselect'>Search</div>
+					<div class='btn clear noselect'>Clear</div>
+				</div>
+				<div class='options'>
+					<input type="text" id="keywords" placeholder="keywords"/>
+					<select id="classes"></select>
+					<select id="teachers"></select>
+				</div>
+			</div>
+
+			<div class='menu'>
+				<div class='lesson active noselect'>Full class</div>
+				<div class='move active noselect'>Single move</div>
+				<div class='aerials active noselect'>Aerials</div>
+				<div class='performance active noselect'>Routine / Performance</div>
+				<hr>
+				<div class='google active noselect'>Google Drive</div>
+			</div>
+
+			<div class='playbackrate'>
+				<p>Playback speed:</p><span id='value'>100%</span>
+				<div class='btn slower noselect'>-</div>
+				<div class='btn faster noselect'>+</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="videolist">
+		<div class='wrapper'>
+			<div class='media list'>
+				<!-- search result list is populated here -->
+			</div>
+		</div>
+	</section>
+
+	<div class="overlay local">
+		<video width="1280" height="720" controls loop id="vid"><source src="" type="video/mp4" /></video>
+	</div>
+	<div class="overlay google">
+		<iframe src="" width="1280" height="720" allow="autoplay"></iframe>
+	</div>
+	<!--
+	<div class="overlay youtube">
+		<iframe width="720" height="420" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1" frameborder="0"></iframe>
+	</div>
+	-->
+
+	<footer>
+		<p>&copy; 2020 <a href="https://www.sanderhendrickx.be">Sander Hendrickx</a></p>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/db-videos.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>
