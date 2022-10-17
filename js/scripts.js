@@ -1,4 +1,4 @@
-const ROOT = "videos/lindy";
+const ROOT = "videos";
 
 const DELAY = 16;
 let speed = 1.0;

@@ -2,13 +2,13 @@
 
 ## Video json
 
-```json
+```js
   {
     id: 77,
-    file:"2020_BOCO_ARSI_6.mp4",
+    file:"bootcamp-2020/arisimon6.mp4",
     type: 0,
     tags:[],
-    desc:"",
+    desc:"Saturday 22/08 mini bootcamp 2",
     origin:"Crazy Legs Bootcamp 2020",
     url: "",
     teachers:["Ari", "Simon"]
@@ -23,9 +23,11 @@
    - 4 Google Drive
 * url (optional) in case (part of) video comes from YouTube, ...
 
+---
+
 ## File naming convention
 
-YYYY_{class or festival}_{teachers initials}_{number}
+`YYYY_{class or festival}_{teachers initials}_{number}`
 
 ex.
 - 2020_CSC_ARSI_1.mp4          2020 Crazy Swing Camp - Ari & Simon - 1st video
@@ -35,25 +37,28 @@ ex.
 
 UN = Unknown
 
-CSC = Crazy Swing Camp
-LSU = Lindy Shock University
-BOCA = Boot Bootcamp
-BNJ =
-CH = Camp Hollywood
-ILHC
-SYCI = Syncopated City (Evita Arce)
-SIS = SwingInStyle (youtube)
-CJB = Camp Jitterbug
+* CSC = Crazy Swing Camp
+* LSU = Lindy Shock University
+* BOCA = Boot Bootcamp
+* BNJ =
+* CH = Camp Hollywood
+* ILHC
+* SYCI = Syncopated City (Evita Arce)
+* SIS = SwingInStyle (youtube)
+* CJB = Camp Jitterbug
 
-IG = Instagram
-YT = Youtube
 
-ENTR = own practice at ENTR
+* IG = Instagram
+* YT = Youtube
 
-SG = Crazy Legs Shorty Georges
-CO = Crazy Legs Cross Overs
-SHIMMY = Crazy Legs Shimmies
-SUDA = Crazy Legs Super Dancers
+
+* ENTR = own practice at ENTR
+
+
+* SG = Crazy Legs Shorty Georges
+* CO = Crazy Legs Cross Overs
+* SHIMMY = Crazy Legs Shimmies
+* SUDA = Crazy Legs Super Dancers
 
 ---
 

@@ -2,7 +2,7 @@ const VIDEOS =
 [
   {
     id: 1,
-    file:"2017_CO_ARSI_1.mp4",
+    file:"cross-overs-2017/lesson1.mp4",
     type: 1,
     tags:["charleston", "airplane"],
     desc:"Switching sides in airplane tandem charleston",
@@ -11,7 +11,7 @@ const VIDEOS =
   },
   {
     id: 2,
-    file:"2017_CO_ARSI_2.mp4",
+    file:"cross-overs-2017/lesson2.mp4",
     type: 1,
     tags:["tandem", "charleston", "intro"],
     desc:"Variation to get into tandem charleston, follow runs into her arm",
@@ -20,7 +20,7 @@ const VIDEOS =
   },
   {
     id: 3,
-    file:"2017_CO_ARSI_3.mp4",
+    file:"cross-overs-2017/lesson3.mp4",
     type: 1,
     tags:["swingout", "backwards", "follow"],
     desc:"Follow goes straight then moves backwards",
@@ -29,7 +29,7 @@ const VIDEOS =
   },
   {
     id: 4,
-    file:"2017_CO_ARSI_4.mp4",
+    file:"cross-overs-2017/lesson4.mp4",
     type: 1,
     tags:["swingout", "footwork", "variation"],
     desc:"Fun swingout footwork variation",
@@ -38,7 +38,7 @@ const VIDEOS =
   },
   {
     id: 5,
-    file:"2017_CO_ARSI_5.mp4",
+    file:"cross-overs-2017/lesson5.mp4",
     type: 1,
     tags:["change of place", "lock step", "footwork"],
     desc:"Break with lock step",
@@ -47,7 +47,7 @@ const VIDEOS =
   },
   {
     id: 6,
-    file:"2017_CO_ARSI_6.mp4",
+    file:"cross-overs-2017/lesson6.mp4",
     type: 1,
     tags:["tandem", "charleston", "lock step"],
     desc:"Tandem into windshield wiper lockstep to hand to hand",
@@ -56,7 +56,7 @@ const VIDEOS =
   },
   {
     id: 7,
-    file:"2017_CO_ARSI_7.mp4",
+    file:"cross-overs-2017/lesson7.mp4",
     type: 1,
     tags:["tuck turn", "airplane"],
     desc:"Tuck turn into airplane",
@@ -75,7 +75,7 @@ const VIDEOS =
   },
   {
     id: 9,
-    file:"2017_CO_ARSI_8.mp4",
+    file:"cross-overs-2017/lesson8.mp4",
     type: 1,
     tags:["swingout", "variation", "inside turn"],
     desc:"Variation on swingout with inside turn",
@@ -84,7 +84,7 @@ const VIDEOS =
   },
   {
     id: 10,
-    file:"2017_SG_BRMA_7.mp4",
+    file:"shorty-georges-2017/lesson7.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -93,7 +93,7 @@ const VIDEOS =
   },
   {
     id: 11,
-    file:"2017_SG_BRMA_1.mp4",
+    file:"shorty-georges-2017/lesson1.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -102,7 +102,7 @@ const VIDEOS =
   },
   {
     id: 12,
-    file:"2017_SG_BRMA_2.mp4",
+    file:"shorty-georges-2017/lesson2.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -111,7 +111,7 @@ const VIDEOS =
   },
   {
     id: 13,
-    file:"2017_SG_BRMA_3.mp4",
+    file:"shorty-georges-2017/lesson3.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -120,7 +120,7 @@ const VIDEOS =
   },
   {
     id: 14,
-    file:"2017_SG_BRMA_4.mp4",
+    file:"shorty-georges-2017/lesson4.mp4",
     type: 0,
     tags:["airplane", "tandem", "handtohand"],
     desc:"",
@@ -129,7 +129,7 @@ const VIDEOS =
   },
   {
     id: 15,
-    file:"2017_SG_BRMA_5.mp4",
+    file:"shorty-georges-2017/lesson5.mp4",
     type: 0,
     tags:["chase", "tandem"],
     desc:"",
@@ -138,7 +138,7 @@ const VIDEOS =
   },
   {
     id: 16,
-    file:"2017_SG_BRMA_6.mp4",
+    file:"shorty-georges-2017/lesson6.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -147,7 +147,7 @@ const VIDEOS =
   },
   {
     id: 17,
-    file:"2017_LSU_PEKA.mov",
+    file:"lindyshock-2017/peterkatja.mov",
     type: 0,
     tags:[],
     desc:"",
@@ -156,7 +156,7 @@ const VIDEOS =
   },
   {
     id: 18,
-    file:"2017_LSU_GAAL.mov",
+    file:"lindyshock-2017/gasalba.mov",
     type: 0,
     tags:[],
     desc:"",
@@ -165,7 +165,7 @@ const VIDEOS =
   },
   {
     id: 19,
-    file:"2017_LSU_STLE.mov",
+    file:"lindyshock-2017/stephanlee.mov",
     type: 0,
     tags:[],
     desc:"",
@@ -174,7 +174,7 @@ const VIDEOS =
   },
   {
     id: 20,
-    file:"2017_LSU_ALVA.mov",
+    file:"lindyshock-2017/alexeyvassia.mov",
     type: 0,
     tags:["swingout", "footwork"],
     desc:"",
@@ -183,7 +183,7 @@ const VIDEOS =
   },
   {
     id: 21,
-    file:"2017_LSU_CACA.mov",
+    file:"lindyshock-2017/camcat.mov",
     type: 0,
     tags:[],
     desc:"",
@@ -202,7 +202,7 @@ const VIDEOS =
   },
   {
     id: 23,
-    file:"2018_AERIALS_ARSI_2.mp4",
+    file:"aerials-2018/arisimon2.mp4",
     type: 2,
     tags:["aerials", "sweep", "around"],
     desc:"Sweep follow around into dip",
@@ -211,7 +211,7 @@ const VIDEOS =
   },
   {
     id: 24,
-    file:"2018_AERIALS_ARSI_1.mp4",
+    file:"aerials-2018/arisimon1.mp4",
     type: 2,
     tags:["aerials", "lindy", "flip"],
     desc:"Lindy flip",
@@ -260,7 +260,7 @@ const VIDEOS =
   },
   {
     id: 29,
-    file:"2018_BOCA_ARSI_6.mp4",
+    file:"bootcamp-2018/lesson6.mp4",
     type: 1,
     tags:["double", "swingout"],
     desc:"Double swingout variation",
@@ -299,7 +299,7 @@ const VIDEOS =
   },
   {
     id: 33,
-    file:"2018_AERIALS_ARSI_3.mp4",
+    file:"aerials-2018/arisimon3.mp4",
     type: 2,
     tags:["aerials", "frog", "jump", "swingout"],
     desc:"Frog jump swingout",
@@ -308,7 +308,7 @@ const VIDEOS =
   },
   {
     id: 34,
-    file:"2017_LSU_JAPE.mov",
+    file:"lindyshock-2017/janezpetra.mov",
     type: 0,
     tags:[],
     desc:"",
@@ -317,7 +317,7 @@ const VIDEOS =
   },
   {
     id: 35,
-    file:"2018_BOCA_ARSI_1.mp4",
+    file:"bootcamp-2018/lesson1.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -326,7 +326,7 @@ const VIDEOS =
   },
   {
     id: 36,
-    file:"2018_BOCA_ARSI_2.mp4",
+    file:"bootcamp-2018/lesson2.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -335,7 +335,7 @@ const VIDEOS =
   },
   {
     id: 37,
-    file:"2018_BOCA_ARSI_3.mp4",
+    file:"bootcamp-2018/lesson3.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -344,7 +344,7 @@ const VIDEOS =
   },
   {
     id: 38,
-    file:"2018_BOCA_ARSI_4.mp4",
+    file:"bootcamp-2018/lesson4.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -353,7 +353,7 @@ const VIDEOS =
   },
   {
     id: 39,
-    file:"2018_BOCA_ARSI_5.mp4",
+    file:"bootcamp-2018/lesson5.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -382,7 +382,7 @@ const VIDEOS =
   },
   {
     id: 42,
-    file:"2019_SHIMMY_ARSI_1.mp4",
+    file:"shimmies-2019/arisimon1.mp4",
     type: 0,
     tags:["swingout", "tandem", "charleston", "hand to hand"],
     desc:"",
@@ -391,7 +391,7 @@ const VIDEOS =
   },
   {
     id: 43,
-    file:"2019_SHIMMY_ARSI_2.mp4",
+    file:"shimmies-2019/arisimon2.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -400,7 +400,7 @@ const VIDEOS =
   },
   {
     id: 44,
-    file:"2018_CO_ANST_1.mp4",
+    file:"cross-overs-2018/lesson1.mp4",
     type: 0,
     tags:["swingout", "whip", "overrotated"],
     desc:"",
@@ -409,7 +409,7 @@ const VIDEOS =
   },
   {
     id: 45,
-    file:"2019_SUDA_ARSI_1.mp4",
+    file:"superdancers/arisimon1.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -418,7 +418,7 @@ const VIDEOS =
   },
   {
     id: 46,
-    file:"2019_SHIMMY_SECA.mp4",
+    file:"shimmies-2019/sepcarla.mp4",
     type: 0,
     tags:["Swingout"],
     desc:"",
@@ -463,7 +463,7 @@ const VIDEOS =
   },
   {
     id: 51,
-    file:"2019_SUDA_ARSI_2.mp4",
+    file:"superdancers/arisimon2.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -472,7 +472,7 @@ const VIDEOS =
   },
   {
     id: 52,
-    file:"2019_SUDA_ARSI_3.mp4",
+    file:"superdancers/arisimon3.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -490,7 +490,7 @@ const VIDEOS =
   },
   {
     id: 54,
-    file:"2017_LSU_SHIR.mov",
+    file:"lindyshock-2017/shortyira.mov",
     type: 0,
     tags:[],
     desc:"",
@@ -499,7 +499,7 @@ const VIDEOS =
   },
   {
     id: 55,
-    file:"2017_CO_ARSI_10.mp4",
+    file:"cross-overs-2017/lesson10.mp4",
     type: 0,
     tags:[],
     desc:"Class 03/10/2017",
@@ -508,7 +508,7 @@ const VIDEOS =
   },
   {
     id: 56,
-    file:"2017_CO_ARSI_9.mp4",
+    file:"cross-overs-2017/lesson9.mp4",
     type: 0,
     tags:[],
     desc:"Class 10/10/2017",
@@ -517,7 +517,7 @@ const VIDEOS =
   },
   {
     id: 57,
-    file:"2018_CO_ANST_2.mp4",
+    file:"cross-overs-2018/lesson2.mp4",
     type: 0,
     tags:[],
     desc:"Class 13/11/2018",
@@ -526,7 +526,7 @@ const VIDEOS =
   },
   {
     id: 58,
-    file:"2018_CO_ANST_3.mp4",
+    file:"cross-overs-2018/lesson3.mp4",
     type: 0,
     tags:[],
     desc:"Class 20/11/2018",
@@ -574,7 +574,7 @@ const VIDEOS =
   },
   {
     id: 63,
-    file:"20200517_IG_ARSI.mp4",
+    file:"IG/20200517_IG_ARSI.mp4",
     type: 3,
     tags:["footwork"],
     desc:"Small fun routine",
@@ -584,7 +584,7 @@ const VIDEOS =
   },
   {
     id: 64,
-    file:"2018_HER_1.mp4",
+    file:"herrang-2018/lesson1.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -593,7 +593,7 @@ const VIDEOS =
   },
   {
     id: 65,
-    file:"2018_HER_3.mp4",
+    file:"herrang-2018/lesson3.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -602,7 +602,7 @@ const VIDEOS =
   },
   {
     id: 66,
-    file:"2018_HER_4.mp4",
+    file:"herrang-2018/lesson4.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -611,7 +611,7 @@ const VIDEOS =
   },
   {
     id: 67,
-    file:"2018_HER_8.mp4",
+    file:"herrang-2018/lesson8.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -629,7 +629,7 @@ const VIDEOS =
   },
   {
     id: 69,
-    file: "2018_WE_ARSI_1.mp4",
+    file: "crazylegs-weekend-2018/arisimon1.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -638,7 +638,7 @@ const VIDEOS =
   },
   {
     id: 70,
-    file:"2018_WE_ARSI_2.mp4",
+    file:"crazylegs-weekend-2018/arisimon2.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -657,7 +657,7 @@ const VIDEOS =
   },
   {
     id: 72,
-    file:"2020_BOCA_ARSI_1.mp4",
+    file:"bootcamp-2020/arisimon1.mp4",
     type: 0,
     tags:[],
     desc:"Monday 17/08",
@@ -667,7 +667,7 @@ const VIDEOS =
   },
   {
     id: 73,
-    file:"2020_BOCA_ARSI_2.mp4",
+    file:"bootcamp-2020/arisimon2.mp4",
     type: 0,
     tags:[],
     desc:"Tuesday 18/08",
@@ -677,7 +677,7 @@ const VIDEOS =
   },
   {
     id: 74,
-    file:"2020_BOCA_ARSI_3.mp4",
+    file:"bootcamp-2020/arisimon3.mp4",
     type: 0,
     tags:[],
     desc:"Wednesday 19/08",
@@ -687,7 +687,7 @@ const VIDEOS =
   },
   {
     id: 75,
-    file:"2020_BOCA_ARSI_4.mp4",
+    file:"bootcamp-2020/arisimon4.mp4",
     type: 0,
     tags:[],
     desc:"Thursday 20/08",
@@ -697,7 +697,7 @@ const VIDEOS =
   },
   {
     id: 76,
-    file:"2020_BOCA_ARSI_5.mp4",
+    file:"bootcamp-2020/arisimon5.mp4",
     type: 0,
     tags:[],
     desc:"Saturday 22/08 mini bootcamp 1",
@@ -707,7 +707,7 @@ const VIDEOS =
   },
   {
     id: 77,
-    file:"2020_BOCA_ARSI_6.mp4",
+    file:"bootcamp-2020/arisimon6.mp4",
     type: 0,
     tags:[],
     desc:"Saturday 22/08 mini bootcamp 2",
@@ -717,7 +717,7 @@ const VIDEOS =
   },
   {
     id: 78,
-    file:"2020_BOCA_ARSI_7.mp4",
+    file:"bootcamp-2020/arisimon7.mp4",
     type: 0,
     tags:[],
     desc:"Saturday 22/08 mini bootcamp 3",
@@ -747,7 +747,7 @@ const VIDEOS =
   },
   {
     id: 81,
-    file:"2018_LSU_LE.mp4",
+    file:"lindyshock-2018/lee.mp4",
     type: 0,
     tags:[],
     desc:"Footwork taster",
@@ -756,7 +756,7 @@ const VIDEOS =
   },
   {
     id: 82,
-    file:"2018_LSU_3.mp4",
+    file:"lindyshock-2018/lsu3.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -765,7 +765,7 @@ const VIDEOS =
   },
   {
     id: 83,
-    file:"2018_LSU_4.mp4",
+    file:"lindyshock-2018/sugarpush.mp4",
     type: 0,
     tags:["sugarpush"],
     desc:"",
@@ -774,7 +774,7 @@ const VIDEOS =
   },
   {
     id: 84,
-    file:"2018_LSU_GAAL.mp4",
+    file:"lindyshock-2018/gasalba.mp4",
     type: 0,
     tags:[],
     desc:"",
@@ -783,7 +783,7 @@ const VIDEOS =
   },
   {
     id: 85,
-    file:"2019_SHIMMY_ARSE.mp4",
+    file:"shimmies-2019/separi.mp4",
     type: 0,
     tags:["swingout", "variation"],
     desc:"Swingout variation",
@@ -792,7 +792,7 @@ const VIDEOS =
   },
   {
     id: 86,
-    file:"20200724_IG.mp4",
+    file:"IG/20200724_IG.mp4",
     type: 1,
     tags:["swingout", "texastommy", "variation"],
     desc:"Swingout variation",
@@ -802,7 +802,7 @@ const VIDEOS =
   },
   {
     id: 87,
-    file:"2019_SHIMMY_AL_1.mp4",
+    file:"shimmies-2019/greekukrain1.mp4",
     type: 0,
     tags:[],
     desc:"A Greek - Ukrain recipe, feb 2020",
@@ -811,7 +811,7 @@ const VIDEOS =
   },
   {
     id: 88,
-    file:"2019_SHIMMY_AL_2.mp4",
+    file:"shimmies-2019/greekukrain2.mp4",
     type: 0,
     tags:["6count"],
     desc:"A Greek - Ukrain recipe, feb 2020 - Shorten moves to 6 counts",
@@ -820,7 +820,7 @@ const VIDEOS =
   },
   {
     id: 89,
-    file:"2020_IG_GAAL.mp4",
+    file:"IG/2020_IG_GAAL.mp4",
     type: 1,
     tags:["lindyflip"],
     desc:"",
@@ -829,7 +829,7 @@ const VIDEOS =
   },
   {
     id: 90,
-    file:"20200915_IG.mp4",
+    file:"IG/20200915_IG.mp4",
     type: 1,
     tags:["charleston", "tandem"],
     desc:"",
@@ -839,7 +839,7 @@ const VIDEOS =
   },
   {
     id: 91,
-    file:"2021_BOCA_ARSI_1.mp4",
+    file:"bootcamp-2021/lesson1.mp4",
     type: 1,
     tags:[],
     desc:"",
@@ -848,7 +848,7 @@ const VIDEOS =
   },
   {
     id: 92,
-    file:"2021_BOCA_ARSI_2.mp4",
+    file:"bootcamp-2021/lesson2.mp4",
     type: 1,
     tags:[],
     desc:"",
@@ -857,7 +857,7 @@ const VIDEOS =
   },
   {
     id: 93,
-    file:"2021_BOCA_ARSI_3.mp4",
+    file:"bootcamp-2021/lesson3.mp4",
     type: 1,
     tags:[],
     desc:"",
@@ -866,7 +866,7 @@ const VIDEOS =
   },
   {
     id: 94,
-    file:"2021_BOCA_ARSI_4.mp4",
+    file:"bootcamp-2021/lesson4.mp4",
     type: 1,
     tags:[],
     desc:"",
@@ -875,7 +875,7 @@ const VIDEOS =
   },
   {
     id: 95,
-    file:"2021_BOCA_ARSI_5.mp4",
+    file:"bootcamp-2021/lesson5.mp4",
     type: 1,
     tags:[],
     desc:"",
@@ -903,24 +903,6 @@ const VIDEOS =
   },
   {
     id: 98,
-    file:"",
-    type: 3,
-    tags:[],
-    desc:"",
-    origin:"",
-    teachers:[]
-  },
-  {
-    id: 99,
-    file:"",
-    type: 3,
-    tags:[],
-    desc:"",
-    origin:"",
-    teachers:[]
-  },
-  {
-    id: 100,
     file:"youtube/ILHC 2013 Invitational Jack Jill Max Pitruzzella Sharon Davis.mp4",
     type: 3,
     tags:[],
@@ -928,5 +910,32 @@ const VIDEOS =
     origin:"",
     url: "https://www.youtube.com/watch?v=_BlXwNFwjys",
     teachers:["Max Pitruzella", "Sharon Davis"]
+  },
+  {
+    id: 99,
+    file:"burning-swing-2022/astridsloopi2.mp4",
+    type: 0,
+    tags:["fast"],
+    desc:"Days at the races",
+    origin:"Burning Swing XL",
+    teachers:["Astrid", "Sloopi"]
+  },
+  {
+    id: 100,
+    file:"burning-swing-2022/alexjill.mp4",
+    type: 0,
+    tags:["slides"],
+    desc:"",
+    origin:"Burning Swing XL",
+    teachers:["Jill", "Alexander"]
+  },
+  {
+    id: 101,
+    file:"burning-swing-2022/beatricesander.mp4",
+    type: 0,
+    tags:[],
+    desc:"",
+    origin:"Burning Swing XL",
+    teachers:["Beatrice", "Sander"]
   }
 ]
