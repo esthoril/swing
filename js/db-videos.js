@@ -937,5 +937,52 @@ const VIDEOS =
     desc:"",
     origin:"Burning Swing XL",
     teachers:["Beatrice", "Sander"]
+  },
+  {
+    id: 102,
+    file:"nils-bianca-leuven/teachers1.mp4",
+    type: 0,
+    tags:[],
+    desc:"",
+    origin:"Nils Bianca workshop",
+    teachers:["Nils", "Bianca"]
+  },
+  {
+    id: 103,
+    file:"nils-bianca-leuven/teachers2.mp4",
+    type: 0,
+    tags:[],
+    desc:"",
+    origin:"Nils Bianca workshop",
+    teachers:["Nils", "Bianca"]
+  },
+  {
+    id: 104,
+    file:"nils-bianca-leuven/advanced.mp4",
+    type: 0,
+    tags:[],
+    desc:"",
+    origin:"Nils Bianca workshop",
+    teachers:["Nils", "Bianca"]
+  },
+  {
+    id: 105,
+    file:"elise/313336890_1561464770974878_1170689164463394003_n.mp4",
+    type: 0,
+    tags:["elise"],
+    desc:"",
+    origin:"",
+    url:"https://www.facebook.com/watch/?extid=WA-UNK-UNK-UNK-AN_GK0T-GK1C&v=1161940281077693",
+    teachers:[]
+  },
+  {
+    id: 106,
+    file:"elise/309448797_792417745415850_6207372619951150999_n.mp4",
+    type: 0,
+    tags:["elise"],
+    desc:"",
+    origin:"",
+    url:"https://www.instagram.com/reel/CjA6Owig26m/?igshid=MDJmNzVkMjY%3D",
+    teachers:[]
   }
 ]
