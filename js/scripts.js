@@ -239,10 +239,11 @@ function addVideos(list)
 {
 	for(var i=0; i<list.length; i++)
 	{
-		$item = createVideoListItem(list[i]);
+		$item = getItemTile(list[i]);
 		$('.wrapper .media.list').append($item);
 	}
 
+  let counter = 1;
 	$('.wrapper .media.list').children('.item').each(function(i) {
 		// Hide inactive video types
 		let type = $(this).attr('class').split(" ")[1];
@@ -250,8 +251,9 @@ function addVideos(list)
 			$(this).hide();
 		}
 		else {
+      counter++;
 			$(this).css("display", "inline-block");
-			$(this).delay(i * DELAY).css('opacity', 0).animate({'opacity': 1}, 320);
+			$(this).delay(counter * DELAY).css('opacity', 0).animate({'opacity': 1}, 320);
 		}
 
 		$(this).hover(function() {
@@ -264,7 +266,7 @@ function addVideos(list)
 /**
  * Convert json object into html tile
  */
-function createVideoListItem(item)
+function getItemTile(item)
 {
 	var parts = item.file.split("/");
 	var filename = parts[parts.length-1];  // Get rid of folders in filename

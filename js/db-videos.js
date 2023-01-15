@@ -1,3 +1,14 @@
+/**
+ * Types:
+ * --------------------------------------
+ *   0 full class
+ *   1 single move / snippet
+ *   2 aerials
+ *   3 routine
+ *   4 google drive
+ *
+ */
+
 const VIDEOS =
 [
   {
@@ -978,11 +989,71 @@ const VIDEOS =
   {
     id: 106,
     file:"elise/309448797_792417745415850_6207372619951150999_n.mp4",
-    type: 0,
+    type: 3,
     tags:["elise"],
     desc:"",
     origin:"",
-    url:"https://www.instagram.com/reel/CjA6Owig26m/?igshid=MDJmNzVkMjY%3D",
+    url:"https://www.instagram.com/p/CjA6Owig26m/",
+    teachers:["Jérémy", "Mélanie"]
+  },
+  {
+    id: 107,
+    file:"solo-routines/TrankyDoo-Leni.mp4",
+    type: 3,
+    tags:["tranky doo"],
+    desc:"Tranky Doo",
+    origin: "",
+    url: "",
+    teachers:["Leni"]
+  },
+  {
+    id: 108,
+    file:"solo-routines/Al & Leon Shim Sham - Joris",
+    type: 3,
+    tags:["shim sham", "routine"],
+    desc:"Al & Leon Shim Sham",
+    origin: "",
+    url: "",
+    teachers:["Joris"]
+  },
+  {
+    id: 109,
+    file:"lindy-routines/joris-elle-california.mp4",
+    type: 3,
+    tags:["california", "routine"],
+    desc:"California Routine",
+    origin: "",
+    url: "",
+    teachers:["Joris", "Elle Brenecki"]
+  },
+  {
+    id: 110,
+    file:"lindy-routines/The California Routine- Spirit Moves.mp4",
+    type: 3,
+    tags:["california", "routine"],
+    desc:"California Routine from The Spirit Moves",
+    origin: "",
+    url: "",
+    teachers:[]
+  },
+  {
+    id: 111,
+    file:"solo-routines/Roulement - Joris & Simon.mp4",
+    type: 3,
+    tags:["roulement", "routine"],
+    desc:"10 years Big Band Mouvement Routine",
+    origin: "",
+    url: "",
+    teachers:["Joris", "Simon Lagrange"]
+  },
+  {
+    id: 112,
+    file:"lindy-routines/20220620_first-stops2.mp4",
+    type: 3,
+    tags:["first stops", "routine"],
+    desc:"First Stops",
+    origin: "",
+    url: "",
     teachers:[]
   }
 ]
