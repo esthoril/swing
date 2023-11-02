@@ -125,6 +125,9 @@ const VIDEOS =
   {id: 112,file:"routines/20220620_first-stops2.mp4",type: 3,tags:["first stops", "routine"],desc:"First Stops",origin: "",url: "",teachers:[]},
   {id: 113,file:"routines/bluedrag-couple.mp4",type: 3,tags:["blue drag", "couple", "routine"],desc: "Blue Drag Shag routine",origin: "",url: "",teachers:[]},
   {id: 114,file:"routines/bluedrag-solo.mp4",type: 3,tags:["blue drag", "solo", "routine"],desc: "Blue Drag Shag routine",origin: "",url: "",teachers:["Nils", "Bianca" ]},
-  {id: 115,file:"youtube/RTSF 2018 Nils Bianca_1080p.mp4",type: 1,tags:[],desc: "",origin: "",url: "https://www.youtube.com/watch?v=alLi8i9BQK4",teachers:["Nils", "Bianca" ]}
+  {id: 115,file:"youtube/RTSF 2018 Nils Bianca_1080p.mp4",type: 1,tags:[],desc: "",origin: "",url: "https://www.youtube.com/watch?v=alLi8i9BQK4",teachers:["Nils", "Bianca" ]},
   //{id: 200,file:"routines/bluedrag-solo.mp4",type: 3,tags:["blue drag", "solo", "routine"],desc: "Blue Drag Shag routine",origin: "",url: "",teachers:[]}
+  {id: 116,file:"littlebigswing-2023/20230929_185324.mp4",type: 1,tags:["sugar push"],desc:"",origin:"Little Big Swing Camp 2023",teachers:["Ari", "Simon"]},
+  {id: 118,file:"littlebigswing-2023/20230930_125401.mp4",type: 1,tags:[],desc:"",origin:"Little Big Swing Camp 2023",teachers:["Hector", "Sonja"]},
+  {id: 119,file:"littlebigswing-2023/VID-20231001-WA0001.mp4",type: 1,tags:[],desc:"",origin:"Little Big Swing Camp 2023",teachers:["Ari", "Simon"]},
 ]
