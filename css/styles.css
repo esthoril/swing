@@ -52,9 +52,10 @@ select { height: 42px; padding: 0; width: 240px; }
 .playbackrate span { font-size: 23px; color: #28282B; display: inline-block; width: 72px; }
 .playbackrate .faster, .playbackrate .slower { background-color: #FBFBFB; font-size: 24px; cursor: pointer; margin-top: 6px; }
 
-.overlay { display: none; cursor: pointer; z-index: 1000; }
-.overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.8); }
-.overlay video, .overlay iframe { position: absolute; top: 50%; margin-top: -360px; left: 50%; margin-left: -640px; border: 8px solid #F8F8FB; background-color: #F8F8FB; }
+.overlay { display: none; cursor: pointer; z-index: 1000; text-align: center;
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.8); }
+/*.overlay video, .overlay iframe { position: absolute; top: 50%; margin-top: -400px; border: 8px solid #F8F8FB; background-color: #F8F8FB; }*/
+.overlay video, .overlay iframe { display: block; margin: 60px auto 0; border: 8px solid #F8F8FB; background-color: #F8F8FB; z-index: 100; }
 
 /* Unselectable text */
 .noselect {

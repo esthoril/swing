@@ -55,7 +55,9 @@
   </section>
 
   <div class="overlay local">
-    <video width="1280" height="720" controls loop id="vid"><source src="" type="video/mp4" /></video>
+    <video controls id="vid" onloadedmetadata="resizeVideo(this)">
+      <source src="" type="video/mp4" />
+    </video>
   </div>
   <div class="overlay google">
     <iframe src="" width="1280" height="720" allow="autoplay"></iframe>
