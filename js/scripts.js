@@ -22,25 +22,18 @@ $(document).ready(function()
   populateTeachers();
 
   // Overlay listener
-  // Stop video and fade out overlay
+  // Fade out overlay and stop video
   $('.overlay').click(function(e)
   {
-    let type = e.target.getAttribute('class').split(" ")[1];
-
-    if(type === "local") {
-      console.log("Closing video");
-      let $vid = document.getElementById("vid");
-      $vid.onended = null; // Remove the auto restart
-      $vid.pause();
-      $vid.currentTime = 0;
-    }
-
-    if(type === "google") {
-      $('.overlay.google iframe').attr("src", "");
-    }
-
+    console.log("Closing video");
     $('.overlay video').css({'margin-top': '60px'}).animate({'margin-top': '0'}, 320);
     $(this).fadeOut(320);
+
+    setTimeout(() => {
+      $vid = document.getElementById("vid");
+      $vid.pause();
+      //$('video').each(function () { this.pause(); });
+    }, 100);
   });
 
   // Video list listeners
@@ -96,32 +89,19 @@ function setOverlay(file, type)
       $('.overlay source').attr("src", `${ROOT}/${file}`);
       $vid = document.getElementById("vid");
       
-      $vid.oncanplay = function () {
-        $vid.playbackRate = speed;
-        $vid.onended = function () { // Ensure video loops
+      $vid.oncanplay = function ()
+      {
+        this.playbackRate = speed;
+        this.onended = function () { // Ensure video loops
           console.log("Restarting video!");
-          $vid.playbackRate = speed;
           this.currentTime = 0;
           this.load();
           this.play();
         };
-        $vid.play();
-      };
-      $vid.load();
-      
-      /*
-      $vid.playbackRate = speed;
-
-      $vid.onended = function () { // Ensure video loops
-        $vid.playbackRate = speed;
-        this.currentTime = 0;
-        this.load();
         this.play();
       };
-      
+
       $vid.load();
-      $vid.play();
-      */
     }, 60);
   }
 }
@@ -157,7 +137,7 @@ function setPlaybackRate(diff)
   if(speed >= 1.2) speed = 1.2;
   if(speed <= 0.5) speed = 0.5;
   document.getElementById('value').innerHTML = `${Math.round(speed*100)}%`;
-  console.log(`Playbackrate set to: ${speed}`);
+  console.log(`Playbackrate set to: ${speed.toFixed(1)}`);
   return speed;
 }
 
