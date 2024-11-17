@@ -30,12 +30,12 @@
       </div>
 
       <div class='menu'>
+        <hr>
         <div class='lesson active noselect'>Full class</div>
         <div class='move active noselect'>Single move</div>
         <div class='aerials active noselect'>Aerials</div>
         <div class='performance active noselect'>Routine / Performance</div>
         <hr>
-        <div class='google active noselect'>Google Drive</div>
       </div>
 
       <div class='playbackrate'>
@@ -48,9 +48,7 @@
 
   <section class="videolist">
     <div class='wrapper'>
-      <div class='media list'>
-        <!-- search result list is populated here -->
-      </div>
+      <div class='media list'><!-- search result list is populated here --></div>
     </div>
   </section>
 
@@ -59,21 +57,19 @@
       <source src="" type="video/mp4" />
     </video>
   </div>
-  <div class="overlay google">
-    <iframe src="" width="1280" height="720" allow="autoplay"></iframe>
-  </div>
-  <!--
-  <div class="overlay youtube">
-    <iframe width="720" height="420" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1" frameborder="0"></iframe>
-  </div>
-  -->
 
   <footer>
     <p>&copy; 2020 <a href="https://www.sanderhendrickx.be">Sander Hendrickx</a></p>
   </footer>
 
+  <script type="text/javascript" src="res/db_videos.js"></script>
+
   <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/db-videos.js"></script>
+
+  <script type="text/javascript" src="js/search.js"></script>
+  <script type="text/javascript" src="js/htmlbuilder.js"></script>
+  <script type="text/javascript" src="js/clickhandler.js"></script>
+  <script type="text/javascript" src="js/iohandler.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
